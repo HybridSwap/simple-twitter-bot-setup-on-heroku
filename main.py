@@ -3,7 +3,6 @@
 
 
 import tweepy
-import logging
 from time import sleep
 import time
 import os
