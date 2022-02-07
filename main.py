@@ -105,4 +105,4 @@ class MyStreamListener(tweepy.StreamListener):
 myStreamListener = MyStreamListener(api)
 myStream = tweepy.Stream(auth = api.auth, listener=myStreamListener)
 
-myStream.filter(track=['Binance'], languages=['en'], async=True)
+myStream.filter(track=['Binance'], languages=['en'],async=True)
