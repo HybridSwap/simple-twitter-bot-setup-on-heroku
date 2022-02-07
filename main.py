@@ -3,6 +3,7 @@
 
 
 import tweepy
+import logging
 from time import sleep
 import time
 import os
@@ -13,10 +14,14 @@ logger = logging.getLogger("BOT")
 logger.setLevel(logging.DEBUG)
 
 
-consumer_key = "jWQEyZIOgfJGT0CtYXGL1XnTS"
-consumer_secret = "LjI8QanT9XBjrMT7rlK4racJmfu32n8mszQn0GvLStnATRuuZW"
-key = "1367218889860517894-7Y63vBnUNU0EQtv5imz38bssAFQNHP"
-secret = "uWuVahlfOBP7PDSKcUVr786Awp8nMNTqXROO0gHeun40V"
+
+consumer_key = "consumer_key"
+consumer_secret = "secret"
+key = "token"
+secret = "token_secret"
+
+
+
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(key, secret)
